@@ -1,16 +1,16 @@
 ############################# About ###################################
 about:
   enable : true
-  title : About Us
+  title : Learn By
   about_item :
+  - icon : ti-music-alt # themify icon pack : https://themify.me/themify-icons
+    title : Listening
+    content : A collection of videos that cover the statistical fundamentals of reliability growth modeling.
+    
+  - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+    title : Doing
+    content : A set of open source software tools that provide a means of interacting with different types of failure data.
+    
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : We're Creative
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : We're Professional
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : We're Genius
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    title : Reading
+    content : A series of blog posts that work through the mathematical derivations of several DoD reliability growth models. 

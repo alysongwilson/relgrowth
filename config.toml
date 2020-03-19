@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://reliability-growth-models.netlify.com/"
-title = "Meghna"
+title = "Reliability Growth Models"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -9,7 +9,7 @@ summaryLength = "15"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = []
+disableLanguages = ["fr"]
 
 ############################# Plugins ##########################
 # css plugins
@@ -46,44 +46,44 @@ name = "About Us"
 URL = "about"
 weight = 1
 
+#[[menu.main]]
+#name = "Service"
+#URL = "services"
+#weight = 2
+
 [[menu.main]]
-name = "Service"
-URL = "services"
+name = "Videos"
+URL = "portfolio"
 weight = 2
 
-[[menu.main]]
-name = "Portfolio"
-URL = "portfolio"
-weight = 3
+#[[menu.main]]
+#name = "Team"
+#URL = "team"
+#weight = 4
 
 [[menu.main]]
-name = "Team"
-URL = "team"
-weight = 4
-
-[[menu.main]]
-name = "Pricing"
+name = "Software"
 URL = "pricing"
-weight = 5
+weight = 3
 
 [[menu.main]]
 name = "Blog"
 URL = "blog"
-weight = 6
+weight = 4
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 7
+weight = 5
 
 
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = ""
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
+description = "Guide for Reliability Growth Models"
+author = ""
 # Google Analitycs
 google_analitycs_id = "" # Your ID
 # post share
@@ -91,12 +91,12 @@ post_share = true
 
 # preloader
 [params.preloader]
-enable = true
-preloader = "images/logo.png"
+enable = false
+preloader = ""
 
 # google map
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"

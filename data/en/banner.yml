@@ -1,12 +1,17 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/hero-area.jpg"
+  bg_image_webp : "" #images/backgrounds/...
+  bg_image : "images/backgrounds/american-flag-big.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Experience the new reality"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+  title : "A Practical Guide for Reliability Growth Analysts"
+  content : "Reliability growth models are commonly used in the Department 
+  of Defense (DoD) to plan, track, and project reliability during system acquisition 
+  and testing. We describe the main classes of reliability growth models for 
+  continuous failure time data and the metrics appropriate for their use. On this website, we provide 
+  three different learning modalities from which we hope to advance the understanding of the development, implementation, 
+  and use of reliability growth models across a sequence of DoD testing events."
   button:
     enable : true
-    label : "Explore Us"
-    link : "#services"
+    label : "Learn More"
+    link : "#about"
