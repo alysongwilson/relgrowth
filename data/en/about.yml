@@ -5,12 +5,12 @@ about:
   about_item :
   - icon : ti-music-alt # themify icon pack : https://themify.me/themify-icons
     title : Listening
-    content : A collection of videos that cover the statistical fundamentals of reliability growth modeling.
+    content : A collection of [videos](#portfolio) that cover the statistical fundamentals of reliability growth modeling.
     
   - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
     title : Doing
-    content : A set of open source software tools that provide a means of interacting with different types of failure data.
+    content : A set of [open source software](#pricing) tools that provide a means of interacting with different types of failure data.
     
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
     title : Reading
-    content : A series of blog posts that work through the mathematical derivations of several DoD reliability growth models. 
+    content : A series of [blog posts](#blog) that work through the mathematical derivations of several DoD reliability growth models.

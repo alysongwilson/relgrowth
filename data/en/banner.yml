@@ -4,7 +4,7 @@ banner:
   bg_image_webp : "" #images/backgrounds/...
   bg_image : "images/backgrounds/american-flag-big.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "A Practical Guide for Reliability Growth Analysts"
+  title : "A Practical Guide on Reliability Growth"
   content : "Reliability growth models are commonly used in the Department 
   of Defense (DoD) to plan, track, and project reliability during system acquisition 
   and testing. We describe the main classes of reliability growth models for 
