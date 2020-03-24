@@ -1,18 +1,16 @@
 ---
-author: John Doe
-date: "2018-09-12T12:52:36+06:00"
-description: This is meta description
-image: images/blog/blog-post-3.jpg
-image_webp: images/blog/blog-post-3.webp
-title: Simple Blog Post
+author: Alyson Wilson
+date: "2020-03-23"
+description: Basics of DoD Test and Evaluation
+image: images/testandeval.jpg
+image_webp: images/testandeval.webp
+title: DoD T&E
 ---
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+When the Department of Defense is buying a new system or improving an existing one, the system undergoes a series of tests. The goal is to understand how well the system can accomplish its mission, perform in realistic environments, keep its users safe, work reliability, and survive and/or recover from damage. These characteristics are grouped into two categories: *effectiveness* and *suitability*. Effectiveness is how well the system can accomplish its mission when used by trained personnel in its intended environment. Suitability measures how well a system can be used in its intended environment; colloquially, it is said to comprise the ``-ilities,'' such as reliability, availability, compatability, transportability, interoperability, supportability, etc.
 
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+The tests themselves also have two different flavors. Some of the tests are *developmental*, which look to see if the system meets requirements. For example, does the system operate when it is cold? Can it be transported using designated equipment? Other tests are *operational*, which assess the system in a mission-realistic environment.
 
-> Design is not just what it looks like and feels like. Design is how it works.
+Our interest is in *reliability*. Informally, reliability is the property that the system works when we want to use it. For example, the reliability of an electrical switch might be defined as the probability that the switch works at a particular temperature under a specified load. The International Organization for Standardization (ISO) defines reliability as the ``ability of an item to perform a required function, under given environmental and operating conditions and for a stated period of time.''
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+When a system is in the early stages of development and prototyping, it typically will not meet the final customer requirements for reliability. To improve reliability, and create *reliability growth*, the tests are used to identify failure modes, which are then analyzed and fixed. As testing continues, improvements are incorporated into the system within designated corrective action periods between test events, with the expectation that reliability grows over time. This process is known as *test-analyze-fix-test*.

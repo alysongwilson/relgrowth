@@ -1,18 +1,15 @@
 ---
-author: John Doe
-date: "2018-09-12T12:52:36+06:00"
-description: This is meta description
-image: images/blog/blog-post-2.jpg
-image_webp: images/blog/blog-post-2.webp
-title: Simple Blog Post
+author: Alyson Wilson
+date: "2020-03-23"
+description: Basics of DoD Test and Evaluation
+image: images/bulb.jpg
+image_webp: images/bulb.webp
+title: Reliability Growth
 ---
+A reliability growth model describes how a system's reliability changes through a series of tests. As the test is conducted, the system might fail. If it does, the failure is analyzed to understand its cause and then it is fixed before testing resumes. This process is known as *test-analyze-fix-test* (TAFT).
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+Reliability growth models capture the changes in a system's reliability as it goes through the TAFT process. The models are used in three ways: to *plan* how a system's reliability will improve; to *track* the improvement (using data) through the tests; and to *project* whether the system is on-track to achieve its reliability goal.
 
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+Reliability growth planning curves provide guidance about what reliability may be expected during the testing process and a baseline to evaluate the success of reliability growth program. These curves are often developed by choosing parameters within a specific family of models. These curves can also support the determination of how much testing will be required to achieve a desired level of reliability, assuming a reasonable set of parameters are selected.
 
-> Design is not just what it looks like and feels like. Design is how it works.
-
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+Reliability growth tracking curves provide estimates of current reliability by identifying the best fit of a model to data at any point in the test sequence. Reliability growth projection looks forward from the current data to estimate the reliability that might be anticipated given upcoming testing and corrective actions. These projections are used to forecast and address questions about, for example, whether a system will achieve its desired reliability.
